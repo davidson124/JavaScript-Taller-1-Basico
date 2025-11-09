@@ -134,8 +134,23 @@ const prompt = require("prompt-sync")();
 // Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
 
 
-const nombres =['Pedro', 'Pablo', 'Maria', 'Juan', 'Diana'];
-const agregarNombre = String(prompt('Ingrese un nombre :' ));
-nombres.push(agregarNombre);
-console.log(nombres);
+// const nombres =['Pedro', 'Pablo', 'Maria', 'Juan', 'Diana'];
+// const agregarNombre = String(prompt('Ingrese un nombre :' ));
+// nombres.push(agregarNombre);
+// console.log(nombres);
 
+
+
+//ejercicio_9
+
+
+
+const list = Number(prompt('¿Cuántos números deseas ingresar? : '));
+const numeros =[];
+for (let k =1; k <= list; k = k + 1 ){
+    numeros.push(k);
+    
+}
+
+numeros.splice(1, 1);
+console.log('Los números que ingresaste son: ', numeros);

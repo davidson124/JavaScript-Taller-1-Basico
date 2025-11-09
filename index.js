@@ -14,14 +14,32 @@ const prompt = require("prompt-sync")();
 
 // Ejercicio_2
 // Escribe un programa que pida al usuario su año de nacimiento y nombre e imprime su edad actual en la consola con la frase Hola X, grandioso! Tienes X años. Asume que el año actual es 2020 y el usuario ingresa 2000, el programa debe imprimir en la consola: Hola Juan, grandioso! Tienes 20 años
-const anioActual = 2025;
+
+// const anioActual = 2025;
+
+// const nombre = String(prompt('Ingrese su nombre : '));
+// const anioNacimiento =Number(prompt('Ingrese año de nacimiento: '));
+
+// const edadActual = anioActual - anioNacimiento;
+
+
+// const message = 'Hola ' + nombre + ' grandioso! tienes ' + edadActual+ ' años.';
+
+// console.log(message);
+
+// Ejercicio_3
+// Escribe un programa que le pida al usuario un número e imprima si es un múltiplo de 5 o no.
+
+// Si es múltiplo debe imprimir Si, el número x es múltiplo 5, de lo contrario debe imprimir No, el número x no es múltiplo de 5.
+
+// NOTA: Un múltiplo de 5 es aquel que dividido por 5 da por resultado un número entero (sin residuo). Por ejemplo 10, 15, 20, etc. son múltiplos de 5. 11 no es múltiplo de 5 porque quedaría un residuo de 1.
 
 const nombre = String(prompt('Ingrese su nombre : '));
-const anioNacimiento =Number(prompt('Ingrese año de nacimiento: '));
+console.log('A continuacón ingresarás un número para saber si es multiplo de 5');
+const num = Number(prompt('Ingrese el número : '));
 
-const edadActual = anioActual - anioNacimiento;
+const message = (num % 5 === 0)
+ ? `Oye ${nombre} tu número ${num} es multiplo de 5`
+ : `Oye ${nombre} tu número ${num} no es multiplo de 5`;
 
-
-const message = 'Hola ' + nombre + ', grandioso! tienes ' + edadActual+ ' años.';
-
-console.log(message);
+ console.log(message)

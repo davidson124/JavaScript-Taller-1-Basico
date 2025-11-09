@@ -34,12 +34,33 @@ const prompt = require("prompt-sync")();
 
 // NOTA: Un múltiplo de 5 es aquel que dividido por 5 da por resultado un número entero (sin residuo). Por ejemplo 10, 15, 20, etc. son múltiplos de 5. 11 no es múltiplo de 5 porque quedaría un residuo de 1.
 
+// const nombre = String(prompt('Ingrese su nombre : '));
+// console.log('A continuacón ingresarás un número para saber si es multiplo de 5');
+// const num = Number(prompt('Ingrese el número : '));
+
+// const message = (num % 5 === 0)
+//  ? `Oye ${nombre} tu número ${num} es multiplo de 5`
+//  : `Oye ${nombre} tu número ${num} no es multiplo de 5`;
+
+//  console.log(message);
+
+
+// Ejercicio_4
+//  Escribe un programa que le pida al usuario ingresar un número.
+
+// Si el número es múltiplo de 3 debe imprimir en la consola bing.
+// Si el número es múltiplo de 5 debe imprimir en la consola bong.
+// Si el número es múltiplo tanto de 3 como de 5 debe imprimir en la consola bingbong.
+// Si no cumple ninguna de las condiciones anteriores debe imprimir el mismo número.
+
 const nombre = String(prompt('Ingrese su nombre : '));
-console.log('A continuacón ingresarás un número para saber si es multiplo de 5');
-const num = Number(prompt('Ingrese el número : '));
+console.log('A continuación ingresarás un número para saber si es multiplo de 3 o 5');
+const num = Number(prompt('Ingrese un número : '));
 
-const message = (num % 5 === 0)
- ? `Oye ${nombre} tu número ${num} es multiplo de 5`
- : `Oye ${nombre} tu número ${num} no es multiplo de 5`;
-
- console.log(message)
+if (num % 3 === 0){
+    console.log('Hola '+ nombre +' tu numero '+ num +' es bing');
+}else if (num % 5 === 0){
+    console.log('Hola ' + nombre + ' tu númoero '+ num +' es bong');
+}else {
+    console.log('Hola ' + nombre +' tu núemro '+num+' no cumple nuestra condición, por tanto es,', num);
+};

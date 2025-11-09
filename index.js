@@ -108,11 +108,34 @@ const prompt = require("prompt-sync")();
 // Ejercicio_7
 // Escribe un programa para la consola que le pida al usuario dos números e imprima en la consola los números en ese rango. Por ejemplo, si el usuario ingresa 5 como primer número y 10 como segundo número, el programa debe imprimir:
 
-console.log('A continuación debes ingresar dos números, el primero debe ser menor que el segundo, \n esto para hallar el rango entre ellos\n');
-const numero1 = Number(prompt("Ingrese el primer número: "));
-const numero2 = Number(prompt("Ingrese el segundo número: ")); 
-console.log('los números entre ' + numero1 + ' y ' + numero2 + ' son:');
 
-for (let k = numero1; k <= numero2; k += 1){
-    console.log(k);
-}                       
+
+// console.log('A continuación debes ingresar dos números, el primero debe ser menor que el segundo, \n esto para hallar el rango entre ellos\n');
+// const numero1 = Number(prompt("Ingrese el primer número: "));
+// const numero2 = Number(prompt("Ingrese el segundo número: ")); 
+// console.log('los números entre ' + numero1 + ' y ' + numero2 + ' son:');
+
+// let k = numero1;
+// do {
+//     console.log( k );
+
+//     k = k + 1;
+// } while ( k <= numero2 );
+
+
+
+
+
+// ejercicio_8
+// Crea una variable llamada nombres con un arreglo que tenga los siguientes elementos: "Pedro", "Pablo", "María", "Juan", "Diana".
+// Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el paso 1.
+// Pídele al usuario que ingrese otro nombre y reemplaza la tercera posición del arreglo con este valor.
+// Recorre el arreglo e imprímelo.
+// Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
+
+
+const nombres =['Pedro', 'Pablo', 'Maria', 'Juan', 'Diana'];
+const agregarNombre = String(prompt('Ingrese un nombre :' ));
+nombres.push(agregarNombre);
+console.log(nombres);
+

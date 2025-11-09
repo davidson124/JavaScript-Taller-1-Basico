@@ -53,14 +53,26 @@ const prompt = require("prompt-sync")();
 // Si el número es múltiplo tanto de 3 como de 5 debe imprimir en la consola bingbong.
 // Si no cumple ninguna de las condiciones anteriores debe imprimir el mismo número.
 
-const nombre = String(prompt('Ingrese su nombre : '));
-console.log('A continuación ingresarás un número para saber si es multiplo de 3 o 5');
-const num = Number(prompt('Ingrese un número : '));
+// const nombre = String(prompt('Ingrese su nombre : '));
+// console.log('A continuación ingresarás un número para saber si es multiplo de 3 o 5');
+// const num = Number(prompt('Ingrese un número : '));
 
-if (num % 3 === 0){
-    console.log('Hola '+ nombre +' tu numero '+ num +' es bing');
-}else if (num % 5 === 0){
-    console.log('Hola ' + nombre + ' tu númoero '+ num +' es bong');
-}else {
-    console.log('Hola ' + nombre +' tu núemro '+num+' no cumple nuestra condición, por tanto es,', num);
-};
+// if (num % 3 === 0){
+//     console.log('Hola '+ nombre +' tu numero '+ num +' es bing');
+// }else if (num % 5 === 0){
+//     console.log('Hola ' + nombre + ' tu númoero '+ num +' es bong');
+// }else {
+//     console.log('Hola ' + nombre +' tu núemro '+num+' no cumple nuestra condición, por tanto es,', num);
+// };
+
+//ejercicio 5
+// Escribe un programa que le pida al usuario ingresar una frase. El programa debe imprimir la frase en la consola 10 veces. NOTA: utiliza un ciclo para imprimir la frase las 10 veces.
+
+
+const frase = String(prompt('Ingresa una frase : '));
+
+for (let k = 1; k <= 10; k+= 1){
+    console.log(k +''+ frase);
+}
+
+

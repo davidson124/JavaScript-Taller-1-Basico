@@ -92,15 +92,27 @@ const prompt = require("prompt-sync")();
 // Escribe un programa que le pida al usuario una frase y un número. El programa debe imprimir la frase en la consola el número de veces que ingresó el usuario. Por ejemplo, si el usuario ingresó la frase Hola Mundo y el número 5, el programa debe imprimir Hola Mundo 5 veces
 
 
-const nombre = String(prompt('Ingrese su nombre : '));  
-console.log('A continuación ingresarás una número para imprimir la frase el número de veces que indiques ');
-const numero = Number(prompt('Ingrese el número : '));
-const frase = String(prompt('Ingresa una frase : '));
-console.log('Hola '+ nombre + ' tu frase se imprimirá ' + numero + ' veces:');
+// const nombre = String(prompt('Ingrese su nombre : '));  
+// console.log('A continuación ingresarás una número para imprimir la frase el número de veces que indiques ');
+// const numero = Number(prompt('Ingrese el número : '));
+// const frase = String(prompt('Ingresa una frase : '));
+// console.log('Hola '+ nombre + ' tu frase se imprimirá ' + numero + ' veces:');
 
-for(let k = 1; k <= numero; k ++ ){
-    const mensaje =(k +''+ frase);
-    console.log(mensaje);
-};
+// for(let k = 1; k <= numero; k ++ ){
+//     const mensaje =(k +''+ frase);
+//     console.log(mensaje);
+// };
 
 
+
+// Ejercicio_7
+// Escribe un programa para la consola que le pida al usuario dos números e imprima en la consola los números en ese rango. Por ejemplo, si el usuario ingresa 5 como primer número y 10 como segundo número, el programa debe imprimir:
+
+console.log('A continuación debes ingresar dos números, el primero debe ser menor que el segundo, \n esto para hallar el rango entre ellos\n');
+const numero1 = Number(prompt("Ingrese el primer número: "));
+const numero2 = Number(prompt("Ingrese el segundo número: ")); 
+console.log('los números entre ' + numero1 + ' y ' + numero2 + ' son:');
+
+for (let k = numero1; k <= numero2; k += 1){
+    console.log(k);
+}                       

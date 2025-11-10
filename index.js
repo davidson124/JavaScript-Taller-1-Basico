@@ -142,15 +142,32 @@ const prompt = require("prompt-sync")();
 
 
 //ejercicio_9
+// Le pida al usuario un número y cree un arreglo de números empezando en el 1 hasta el número que el usuario ingrese (incluyéndolo)
+// Elimine el segundo elemento.
+// Recorra e imprima el arreglo.
 
 
 
-const list = Number(prompt('¿Cuántos números deseas ingresar? : '));
-const numeros =[];
-for (let k =1; k <= list; k = k + 1 ){
-    numeros.push(k);
-    
-}
+// const list = Number(prompt('¿Cuántos números deseas ingresar? : '));
+// const numeros =[];
+// for (let k =1; k <= list; k = k + 1 ){
+//     numeros.push(k);
+// }
+// numeros.splice(1, 1);
+// console.log('Los números que ingresaste son: ', numeros);
 
-numeros.splice(1, 1);
-console.log('Los números que ingresaste son: ', numeros);
+
+
+// Ejercicio_10
+// Completa el siguiente programa para imprimir los números que sean mayores a 10.
+
+const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39];
+let p = nums;
+do {
+    console.log( p, nums[ p ] );
+
+    p++;
+} while ( p > 10 );
+
+//ejercicio_11
+

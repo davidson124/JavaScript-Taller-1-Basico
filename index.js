@@ -1,18 +1,5 @@
 const prompt = require("prompt-sync")();
 
-// Ejercicio_1 
-// Escribe un programa que pida al usuario ingresar un número, luego pide un segundo número e imprime en la consola la suma de los dos números ingresados.
-
-
-
-// const num1 = Number(prompt("Ingrese el primer número: "));
-// const num2 = Number(prompt("Ingrese el segundo número: "));
-
-// const sumar = num1 + num2;
-
-// const resultado = `La suma de ${num1} y ${num2} es: ${sumar}`;
-
-// console.log(resultado);
 
 
 
@@ -111,7 +98,8 @@ const prompt = require("prompt-sync")();
 
 
 // console.log('A continuación debes ingresar dos números, el primero debe ser menor que el segundo, \n esto para hallar el rango entre ellos\n');
-// const numero1 = Number(prompt("Ingrese el primer número: "));
+// const numero1 = Number(prompt("si
+// Ingrese el primer número: "));
 // const numero2 = Number(prompt("Ingrese el segundo número: ")); 
 // console.log('los números entre ' + numero1 + ' y ' + numero2 + ' son:');
 
@@ -162,12 +150,18 @@ const prompt = require("prompt-sync")();
 // Completa el siguiente programa para imprimir los números que sean mayores a 10.
 
 const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39];
-let p = nums;
-do {
-    console.log( p, nums[ p ] );
 
-    p++;
-} while ( p > 10 );
+let a = 0;
+do {
+    if(nums[a]>10){
+        console.log( nums[ a ] );
+    }
+    a++;  // a += 1;
+} while( a < nums.length );
+
+
+
+
 
 //ejercicio_11
 

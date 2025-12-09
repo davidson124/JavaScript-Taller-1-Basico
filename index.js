@@ -4,23 +4,6 @@ const prompt = require("prompt-sync")();
 
 
 
-// Ejercicio_2
-// Escribe un programa que pida al usuario su año de nacimiento y nombre e imprime su edad actual en la consola con la frase Hola X, grandioso! Tienes X años. Asume que el año actual es 2020 y el usuario ingresa 2000, el programa debe imprimir en la consola: Hola Juan, grandioso! Tienes 20 años
-
-
-
-// const anioActual = 2025;
-
-// const nombre = String(prompt('Ingrese su nombre : '));
-// const anioNacimiento =Number(prompt('Ingrese año de nacimiento: '));
-
-// const edadActual = anioActual - anioNacimiento;
-
-// const message = 'Hola ' + nombre + ' grandioso! tienes ' + edadActual+ ' años.';
-
-// console.log(message);
-
-
 
 // Ejercicio_3
 // Escribe un programa que le pida al usuario un número e imprima si es un múltiplo de 5 o no.
@@ -39,12 +22,7 @@ const prompt = require("prompt-sync")();
 
 
 
-// Ejercicio_4
-//  Escribe un programa que le pida al usuario ingresar un número.
-// Si el número es múltiplo de 3 debe imprimir en la consola bing.
-// Si el número es múltiplo de 5 debe imprimir en la consola bong.
-// Si el número es múltiplo tanto de 3 como de 5 debe imprimir en la consola bingbong.
-// Si no cumple ninguna de las condiciones anteriores debe imprimir el mismo número.
+
 
 
 

@@ -3,7 +3,7 @@
 
 
 alert('           😊-----  HOLA -----😊 \n🔗----CLICK PARA CONTINUAR ----🔗');
-alert('Ingresa dos números a sumar');
+alert('INGRESA DOS NÚMEROS A SUMAR');
 const num1 = Number(prompt("Ingrese el primer número: "));
 if (isNaN(num1)){
     alert('El primer valor ingresado no es un número válido');
@@ -14,7 +14,7 @@ if (isNaN(num1)){
     }else{
         const sumar = num1 + num2;
 
-        const resultado = `La suma de ${num1} y ${num2} es: ${sumar}`;
+        const resultado = `🧮 LA SUMA DE ${num1} Y ${num2} ES: ${sumar} 👌`;
 
         alert(resultado);
     }

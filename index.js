@@ -4,32 +4,16 @@ const prompt = require("prompt-sync")();
 
 
 
-const nombre = String(prompt('Ingrese su nombre : '));
-console.log('A continuacón ingresarás un número para saber si es multiplo de 5');
-const num = Number(prompt('Ingrese el número : '));
-const message = (num % 5 === 0)
- ? `Oye ${nombre} tu número ${num} es multiplo de 5`
- : `Oye ${nombre} tu número ${num} no es multiplo de 5`;
- console.log(message);
+// const nombre = String(prompt('Ingrese su nombre : '));
+// console.log('A continuacón ingresarás un número para saber si es multiplo de 5');
+// const num = Number(prompt('Ingrese el número : '));
+// const message = (num % 5 === 0)
+//  ? `Oye ${nombre} tu número ${num} es multiplo de 5`
+//  : `Oye ${nombre} tu número ${num} no es multiplo de 5`;
+//  console.log(message);
 
 
 
-
-
-
-
-
-
-//ejercicio 5
-// Escribe un programa que le pida al usuario ingresar una frase. El programa debe imprimir la frase en la consola 10 veces. NOTA: utiliza un ciclo para imprimir la frase las 10 veces.
-
-
-
-// const frase = String(prompt('Ingresa una frase : '));
-
-// for (let k = 1; k <= 10; k+= 1){
-//     console.log(k +''+ frase);
-// };
 
 
 

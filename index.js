@@ -13,52 +13,18 @@ const prompt = require("prompt-sync")();
 //  console.log(message);
 
 
-
-
-// ejercicio_8
-// Crea una variable llamada nombres con un arreglo que tenga los siguientes elementos: "Pedro", "Pablo", "María", "Juan", "Diana".
-// Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el paso 1.
-// Pídele al usuario que ingrese otro nombre y reemplaza la tercera posición del arreglo con este valor.
-// Recorre el arreglo e imprímelo.
-// Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
-
-
-// const nombres =['Pedro', 'Pablo', 'Maria', 'Juan', 'Diana'];
-// const agregarNombre = String(prompt('Ingrese un nombre :' ));
-// nombres.push(agregarNombre);
-// console.log(nombres);
-
-
-
-//ejercicio_9
-// Le pida al usuario un número y cree un arreglo de números empezando en el 1 hasta el número que el usuario ingrese (incluyéndolo)
-// Elimine el segundo elemento.
-// Recorra e imprima el arreglo.
-
-
-
-// const list = Number(prompt('¿Cuántos números deseas ingresar? : '));
-// const numeros =[];
-// for (let k =1; k <= list; k = k + 1 ){
-//     numeros.push(k);
-// }
-// numeros.splice(1, 1);
-// console.log('Los números que ingresaste son: ', numeros);
-
-
-
 // Ejercicio_10
 // Completa el siguiente programa para imprimir los números que sean mayores a 10.
 
-const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39];
+// const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39];
 
-let a = 0;
-do {
-    if(nums[a]>10){
-        console.log( nums[ a ] );
-    }
-    a++;  // a += 1;
-} while( a < nums.length );
+// let a = 0;
+// do {
+//     if(nums[a]>10){
+//         console.log( nums[ a ] );
+//     }
+//     a++;  // a += 1;
+// } while( a < nums.length );
 
 
 

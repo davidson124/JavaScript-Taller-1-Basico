@@ -15,43 +15,6 @@ const prompt = require("prompt-sync")();
 
 
 
-
-
-// Ejercicio_6
-// Escribe un programa que le pida al usuario una frase y un número. El programa debe imprimir la frase en la consola el número de veces que ingresó el usuario. Por ejemplo, si el usuario ingresó la frase Hola Mundo y el número 5, el programa debe imprimir Hola Mundo 5 veces
-
-
-// const nombre = String(prompt('Ingrese su nombre : '));  
-// console.log('A continuación ingresarás una número para imprimir la frase el número de veces que indiques ');
-// const numero = Number(prompt('Ingrese el número : '));
-// const frase = String(prompt('Ingresa una frase : '));
-// console.log('Hola '+ nombre + ' tu frase se imprimirá ' + numero + ' veces:');
-
-// for(let k = 1; k <= numero; k ++ ){
-//     const mensaje =(k +''+ frase);
-//     console.log(mensaje);
-// };
-
-
-
-
-// console.log('A continuación debes ingresar dos números, el primero debe ser menor que el segundo, \n esto para hallar el rango entre ellos\n');
-// const numero1 = Number(prompt("si
-// Ingrese el primer número: "));
-// const numero2 = Number(prompt("Ingrese el segundo número: ")); 
-// console.log('los números entre ' + numero1 + ' y ' + numero2 + ' son:');
-
-// let k = numero1;
-// do {
-//     console.log( k );
-
-//     k = k + 1;
-// } while ( k <= numero2 );
-
-
-
-
-
 // ejercicio_8
 // Crea una variable llamada nombres con un arreglo que tenga los siguientes elementos: "Pedro", "Pablo", "María", "Juan", "Diana".
 // Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el paso 1.

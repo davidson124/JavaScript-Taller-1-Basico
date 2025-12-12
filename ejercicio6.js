@@ -15,7 +15,6 @@ if(Number(frase)){
         for(let i = 1; i<=numero; i++){
             console.log(i,frase);
         }
-
         setTimeout(()=>{
             alert('GOOD BYE');
         },'2000');

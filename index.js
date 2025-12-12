@@ -34,10 +34,6 @@ const prompt = require("prompt-sync")();
 
 
 
-// Ejercicio_7
-// Escribe un programa para la consola que le pida al usuario dos números e imprima en la consola los números en ese rango. Por ejemplo, si el usuario ingresa 5 como primer número y 10 como segundo número, el programa debe imprimir:
-
-
 
 // console.log('A continuación debes ingresar dos números, el primero debe ser menor que el segundo, \n esto para hallar el rango entre ellos\n');
 // const numero1 = Number(prompt("si
